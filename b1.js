@@ -6,8 +6,8 @@ function isPrime(a) {
 
 function findPrime(e) {
     event.preventDefault();
-    let a = document.getElementById('numA').value;
-    let b = document.getElementById('numB').value;
+    let a = parseInt(document.getElementById('numA').value);
+    let b = parseInt(document.getElementById('numB').value);
     let result = document.querySelector('.result');
     
     if (a > b) {
